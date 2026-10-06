@@ -1,0 +1,4 @@
+[build]
+  # Type-check the code; Netlify bundles the functions itself.
+  command = "npm run typecheck"
+  publish = "public"

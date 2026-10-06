@@ -1,0 +1,24 @@
+{
+  "name": "briefing-feed-mcp",
+  "version": "0.2.0",
+  "description": "MCP server that saves briefings from ChatGPT scheduled tasks to Supabase, hosted on Netlify",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx netlify-cli dev",
+    "typecheck": "tsc"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "@supabase/supabase-js": "^2.117.2",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^6.0.2",
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}
